@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system;  
+    font-weight: 100;
+}
+body{
+    background: repeating-linear-gradient(
+        to right,
+        #3e3523 0.1px,
+        #3e3523f5 10px,
+        #3e3523 0.1px 
+    );
+    width: 970px;
+    margin: 0 auto;
+}
+nav{
+    font-size: 0;
+}
+    nav ul{
+        text-align: left;
+        display: inline-block;
+        list-style-type: none;  
+        width: 50%;
+    }
+    nav ul:last-child{
+        text-align: right;
+    }
+        nav ul li{
+            font-size: 20px;
+            display: inline-block;
+            vertical-align: top;
+            background: rgba(182, 184, 182, 0.2);
+            padding: 7px 13px 15px 13px;
+        }
+            nav ul li:nth-child(2){
+                margin-left: 4px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+            }
+
+h2, h2 #what_to_use{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    background-color: rgb(200, 79, 0);
+    padding: 20px;
+}
+    h2 #what_to_use{
+        background-color: transparent;
+        display: inline-block;
+        width: 370px;
+        border: none;
+        text-align: center;
+        border-bottom:  solid 1px white;
+    }
+section{
+    position: relative;
+    background-color: rgb(242, 233, 214);
+    padding: 15px 15px 45px 15px;
+    margin-top: 30px;
+}
+    section h1{
+        font-size: 30px;
+    }
+    section #support{
+        font-weight: 400;
+        font-size: 18px;
+        display: inline-block; 
+        width: 465px;
+        margin-top: 20px;
+    }
+#browsers{ 
+    text-align: center;
+}
+    #browsers p, #browsers ul{
+        display: inline-block;
+        width: 79px;
+        text-align: center;
+        font-weight: 400;
+    }
+    #browsers p{
+        padding: 5px;
+    }
+    #browsers ul{
+        border-top: solid 4px black;
+        list-style-type: none;
+        display: inline-block;
+        vertical-align: top;
+        color: white;
+        background-color: rgb(220, 211, 191);
+    }
+        #browsers ul li{
+            font-weight: 400;
+            margin-top: 4px;
+            position: relative;
+        }
+
+        #browsers ul .blank{
+            visibility: hidden;
+        }
+        #browsers ul .lower_version{
+            background-color: rgb(129, 0, 0);
+        }
+        #browsers ul .mid_version{
+            background-color: rgb(148, 112, 12);
+        }
+        #browsers ul .higher_version{
+            background-color: rgb(37, 133, 51);
+        }
+            #browsers ul span{
+                padding: 0 2px;
+                position: absolute;
+                font-size: 6px;
+                background-color: white;
+                color: black;
+                font-weight: 500;
+                left: 1px;
+                top: 1px;
+            }
+#hashtag{
+    display: inline;
+    position: absolute;
+    color: white;
+    background-color: rgb(200, 79, 0);
+    font-size: 25px;
+    padding: 0 5px;
+    font-weight: 500;
+    left: -25px;
+    top: 25px;
+}
